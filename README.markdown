@@ -333,8 +333,7 @@ Try git branch again to check which branch you are currently on:
       jeroen-egelmeers
     * main
 
-The new branch is now created. Now let’s work in that branch. To switch
-to the new branch:
+The new branch is now created. Now let’s work in that branch. By using `git checkout -b jeroen-egelmeers` you directly switched to that branch. If you did something else in the meantime, and want to switch back to the branch to work on it use:
 
     $ git checkout jeroen-egelmeers
 
@@ -443,6 +442,15 @@ Either way, having your work updated with the current version of main will incre
 Pull Request
 -------
 In modern development, we work with Pull Requests. Here you can ask your peers to review your code. Let's try that out in Github!
+To do this, we first have to fork this repository. You can do this by clicking on the right top of this workshop on "Fork". More information about forking a repository you can find here: [this tutorial](https://help.github.com/articles/fork-a-repo)
+
+If you have forked the workshop to your own Github profile, you can start creating pull requests on that version.
+So:
+- Clone the version you just forked to your own profile to your local environment.
+
+Tip: No clue how to clone anymore? Check the "clone" part of this workshop above!
+
+Follow the steps about Pull Requests:
 
 - Create a new branch with again your name, but then add `-PR` after it. So for example:
   `jeroen-egelmeers-PR`
@@ -460,8 +468,8 @@ Do you still remember how to create the branch? If not, scroll back up, and find
 Probably you got an error now. You did not yet create the branch on the online repository, but only local.
 Git gives an error message stating how to fix your issue. Can you figure it out yourself?
 
-Now go to our online repository on Github using this link:
-`https://github.com/JeroenEgelmeers/git-workshop`
+Now go to our online repository on Github using the newly created fork on your profile. Go to Github, click on your profile image. Then on "Your profile".
+Then click on "Repositories" on the menu next to your profile image. And find the forked repository there. Click then on the green "Code" button to get the right clone URL.
 
 - Click on the `Pull Request` tab.
 - Click on the green button `New pull request`
@@ -588,8 +596,9 @@ You have learnt :
 7. Undoing changes 
 8. Branching and merging 
 9. Pull Requests (including WIP/DRAFT)
-10. Fixing conflicts
-11. Using GIT via Github Desktop
+10. Forking excisting projects
+11. Fixing conflicts
+12. Using GIT via Github Desktop
 
 Next time someone is asking you something about Git, you're ready to answer them! Congratulations!
 Want to learn more? Try to create your very own repository, and start playing!
@@ -608,20 +617,14 @@ then share with others
 
 Then come back here, we’ll wait.
 
-Fork a repo
------------
-
-Go to [this tutorial](https://help.github.com/articles/fork-a-repo)
-Then come back here, we’ll wait.
-
 Fin
 ---
 
 You have learnt:
 
-1.  Forking a repo at GitHub
-2.  Git push
-3.  Git pull
+1. Creating your own repository! 
+
+Congratulations! you've finished this workshop!
 
 ### References and Further reading
 
@@ -640,8 +643,6 @@ Author
 This work is licensed under the Creative Commons
 Attribution-NonCommercial-ShareAlike 3.0 License\
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">http://creativecommons.org/licenses/by-nc-sa/3.0/</a>\
-Author: Thong Kuah
-Contributors: Andy Newport, Nick Malcolm
-
-Was editted for internal use by Jeroen Egelmeers
+This workshop was based on the Workshop from Thong Kuah, and exteded by Jeroen Egelmeers.
+Contributors to this version: lliza
 
