@@ -1,1 +1,3 @@
-I am mad ass hell, and I'm not going to take it anymore.
+Hello friend!
+In je read-me, derde line mist volgens mij een woord.
+En een spelfoutje in pull request: my-favorite-mysic.txt 
